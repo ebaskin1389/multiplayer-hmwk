@@ -1,0 +1,102 @@
+/** Liza's CSS3 file **/
+
+
+/* Extra small devices (phones, less than 768px) */
+
+
+/* No media query since this is the default in Bootstrap */
+
+
+/* Small devices (tablets, 768px and up) */
+
+@media (min-width: @screen-sm-min) {
+    ...
+}
+
+
+/* Medium devices (desktops, 992px and up) */
+
+@media (min-width: @screen-md-min) {
+    ...
+}
+
+
+/* Large devices (large desktops, 1200px and up) */
+
+@media (min-width: @screen-lg-min) {
+    ...
+}
+
+html {
+    text-align: center;
+    background-color: #ffdbe6;
+    background: url(../images/vectorBackground.jpeg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    background: transparent !important;
+    font-size: 20px;
+}
+
+#nav li {
+    float: right;
+    padding: 20px;
+}
+
+h1 {
+    color: #8800cc;
+    font-size: 3em;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+}
+
+#mainPic {
+    width: 912.38px;
+    height: 300px;
+}
+
+#rps {
+    padding: 20px;
+    width: 85 px;
+    height: 85 px;
+}
+
+button,
+input {
+    margin: 10px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    color: #8800cc;
+    text-size: 2em;
+    background-color: #ffe6ff;
+}
+
+textarea {
+    width: 500px;
+    height: 500px;
+}
+
+footer {
+    position: fixed;
+    margin: 10px;
+    right: 0;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
+    height: 20px;
+    text-align: right;
+    padding: 20px;
+    color: #8800cc;
+}
